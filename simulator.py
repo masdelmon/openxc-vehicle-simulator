@@ -127,4 +127,4 @@ if __name__ == '__main__':
      flask_port = 50000
 
      print('For the UI, navigate a browser to localhost:' + str(flask_port))
-     app.run(use_reloader=False, host='0.0.0.0', port=flask_port)
+     app.run(use_reloader=False, host='', port=flask_port)
